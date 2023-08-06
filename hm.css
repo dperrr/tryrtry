@@ -471,10 +471,6 @@ footer {
       font-size: 2rem;
   }
 
-
-  .navbar{
-      display:none;
-  }
   .content p {
       display: none;
   }
@@ -498,11 +494,21 @@ footer {
       flex-direction: column;
       margin: 0;
   }
-
+  ul{
+    display: none;
+  }
   /* Branches */
 
   .branches {
       width: 100%;
+  }
+
+  .header__title{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  
+    padding: 2rem 1rem;
   }
 
   .row-2 {
@@ -543,8 +549,16 @@ button {
     display: none;
 }
 
-.navbar{
-    display: none;
+ul{
+  display: none;
+}
+
+.header__title{
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+
+  padding: 2rem 1rem;
 }
 
 nav h1 {
@@ -622,7 +636,6 @@ nav h1 {
 .column-col h2 {
   font-size: 1.5rem;
 }
-
   .branches {
     width: 100%;
 }
@@ -642,8 +655,5 @@ nav h1 {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* Add your original CSS for extra large devices here */
+  
 }
-
-
-
