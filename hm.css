@@ -471,6 +471,10 @@ footer {
       font-size: 2rem;
   }
 
+
+  .navbar{
+      display:none;
+  }
   .content p {
       display: none;
   }
@@ -536,6 +540,10 @@ button {
 }
 
 .content p {
+    display: none;
+}
+
+.navbar{
     display: none;
 }
 
@@ -614,9 +622,6 @@ nav h1 {
 .column-col h2 {
   font-size: 1.5rem;
 }
-
-
-
 
   .branches {
     width: 100%;
